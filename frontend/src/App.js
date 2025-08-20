@@ -41,29 +41,35 @@ function App() {
       })
       .catch(err => console.log(err));
   };
-
   return (
-    <div className="app-container">
-      <h1>To-Do List</h1>
-      <div className="input-container">
-        <input value={task} onChange={e => setTask(e.target.value)} />
-        <button onClick={addTodo}>Add</button>
-      </div>
-      <ul className="todo-list">
-        {todos.map(todo => (
-          <li key={todo._id} className="todo-item">
-            <span style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
-              {todo.task}
-            </span>
-            <div>
-              <button className="toggle" onClick={() => toggleComplete(todo._id)}>Toggle</button>
-              <button className="delete" onClick={() => deleteTodo(todo._id)}>Delete</button>
-            </div>
-          </li>
-        ))}
-      </ul>
+  <div className="app-container">
+    <h1>To-Do List</h1>
+    <div className="input-container">
+      <input
+        value={task}
+        onChange={e => setTask(e.target.value)}
+      />
+      <button onClick={addTodo}>Add</button>
     </div>
-  );
+    <ul className="todo-list">
+      {todos.map(todo => (
+        <li key={todo._id} className="todo-item">
+          <span style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
+            {todo.task}
+          </span>
+          <div>
+            <button className="toggle" onClick={() => toggleComplete(todo._id)}>
+              Toggle
+            </button>
+            <button className="delete" onClick={() => deleteTodo(todo._id)}>
+              Delete
+            </button>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 }
 
 export default App;
