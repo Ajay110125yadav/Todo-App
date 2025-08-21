@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Todo-toggle" src="https://github.com/user-attachments/assets/3c1f2206-e320-4490-92ff-91cba12b6b61" />
+
 
 
 # Todo App
