@@ -6,9 +6,10 @@ A simple Todo app built with [tech stack, जैसे React].
 
 ## Screenshots
 ### Homepage
-![Todo App Homepage] ![Uploading Todo-Home .png…]()
+![Todo App Homepage] (<img width="1366" height="768" alt="Todo-Home " src="https://github.com/user-attachments/assets/f6c22994-31e3-4b5c-8360-dc9ac983f719" />)
+
 
 
 ### Adding a Task
-![Add Task Page] ![Uploading Todo-toggle.png…]()
+![Add Task Page] (<img width="1366" height="768" alt="Todo-toggle " src="https://github.com/user-attachments/assets/f6c22994-31e3-4b5c-8360-dc9ac983f719" />)
 
